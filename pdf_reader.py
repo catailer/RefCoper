@@ -30,6 +30,7 @@ def extract_text(pdf_path):
     result=""
     for page in extract_text_by_page(pdf_path):
         result=result+page
+        print(1)
     return result
 
 def get_references(article):
